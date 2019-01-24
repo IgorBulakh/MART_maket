@@ -1,0 +1,151 @@
+
+
+
+/*----------------------parent-block------------*/
+.galery {
+	margin: 10px auto;
+	text-transform: uppercase;
+
+}
+/*----------------------parent-block------------*/
+/*----------------------h2-text------------*/
+.galery-title {
+	margin-bottom: 60px;
+	font-size: 48px;
+	font-weight: 100;
+	color: #555252;
+	
+	text-align: center;
+}
+
+.galery .galery-title:after {
+	content: '';
+	display: block;
+	width: 160px;
+	height: 6px;
+	margin: 30px auto;
+	background: #1abc9c;
+}
+/*----------------------h2-text------------*/
+/*----------------------galery-body------------*/
+.galery-body {
+	/*margin: 0 auto;*/
+	/*padding-left: 24px;*/
+}
+/*----------------------galery-body------------*/
+/*----------------------figure-galery-item------------*/
+.galery-item {
+	width: 22%;
+	height: 320px;
+	margin: 0 18px 30px 18px;
+	float: left;
+	text-align: center;
+	background: #e8effc;
+	border: thin #c0c0c0 solid;
+}
+.galery-item:nth-child(4n) {
+	margin-right: 0;
+	text-align: center;
+}
+/*----------------------figure-galery-item------------*/
+/*----------------------img-galery------------*/
+.galery-img {
+	margin-top: 30px;
+	/*width: 70%;*/
+	/*height: 70%;*/
+	margin-bottom: 24px;
+	background-size: cover;
+}
+
+		/*----------------------img-galery-counter------------*/
+.img-one {
+	width: 100%;
+	height: 100%;
+	margin: -8% 0;
+}
+.img-two {
+	width: 70%;
+	height: 70%;
+	margin: 10.5% 0;
+}
+.img-three {
+	margin: 23% 0;
+}
+.img-four {
+	margin: 13.9% 0;
+}
+.img-five {
+	margin: 12.2% 0;
+}
+.img-six {
+	margin: 18.5% 0;
+}
+.img-seven {
+	margin: 7% 0;
+
+}
+.img-eight {
+	margin: 34.5% 0;
+}
+		/*----------------------img-galery-counter------------*/
+/*----------------------img-galery------------*/
+
+
+/*----------------------caption-galery------------*/
+
+.galery-caption {
+	font-weight: bold;
+
+}
+
+.caption-name {
+	padding: 10px 0;
+	float: left;
+	text-align: center;
+	background-color: #222;
+    color: #fff;
+	width: 80%;
+}
+
+.caption-price {
+	background: #8c8c8c;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.caption-name:hover {
+	background: #1abc9c;
+}
+
+
+/*----------------------caption-galery------------*/
+
+
+/*----------------------test-galery------------*/
+
+/*figure {*/
+    
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    /*padding: 5px;*/
+    /*max-width: 220px;*/
+    /*margin: auto;*/
+       /*float: left;*/
+}
+
+/*img {*/
+	/*width: 100px;*/
+	/*height: 100px;*/
+    /*max-width: 220px;*/
+    /*max-height: 150px;*/
+}
+
+/*figcaption {*/
+	/*margin: 20px;*/
+    /*font: italic smaller sans-serif;*/
+    /*padding: 3px;*/
+    /*text-transform: uppercase;*/
+    /*text-align: left;*/
+}
+
+/*----------------------test-galery------------*/

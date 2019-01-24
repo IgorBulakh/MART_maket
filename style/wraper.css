@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------.wraper------------------*/
+.wraper {
+    width: 1200px;
+    margin: 10px auto;
+    padding: 5px;
+    outline: 1px solid black;
+    font-family: sans-serif;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+}
+/*---------------------------.wraper------------------*/
+
+/*---------------------------clearfix------------------*/
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+/*---------------------------clearfix------------------*/
+
+/*.border {
+    height: 100%;
+    width: 100px;
+    border: 10px solid lime;
+    padding: 50px;
+    margin: 20px auto;
+}
+article p {
+    color: aqua;
+    font-size: 50px;
+    margin: 5px auto;
+    outline: 3px solid goldenrod;
+}*/
+
+/*box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);*/
