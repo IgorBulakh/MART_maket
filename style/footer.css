@@ -36,7 +36,6 @@
 			border: 1px solid black;
 			box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
 }
-}
 /*----------------------NEWS-BLOCK------------*/
 
 /*----------------------NEWS-IMG------------*/
@@ -44,9 +43,10 @@
 	
 	
 
-	/*display: block;
+	display: block;
 	width: 100%;
-	height: auto;*/
+	height: 265px;
+	margin-bottom: 2.5%;
 	background-size: cover;
 
 }
